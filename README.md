@@ -18,23 +18,16 @@ It also fetches trending topics from Hacker News so you can instantly generate c
 💾 Save generated images inside the outputs/ folder
 
 🗂️ Project Structure
-auto_curation/
-│
-├── .env                         # Stores your API keys
-|
-├── app.py                       # Main Streamlit app
-|
-├── hackernews.py                 # Fetch Hacker News topics & trending
-|
-├── content_gen.py                # Captions generator
-|
-├── hashtag_generator.py          # Hashtags generator
-|
-├── image_generator.py            # Image generator
-│                    
-├── requirements.txt              # Dependencies
-|
-└── README.md                     # Documentation
+auto_curation (main folder)
+
+1.  .env                         # Stores your API keys
+2.   app.py                       # Main Streamlit app
+3.   hackernews.py                 # Fetch Hacker News topics & trending
+4.   content_gen.py                # Captions generator
+5.   hashtag_generator.py          # Hashtags generator
+6.   image_generator.py            # Image generator
+7.   requirements.txt              # Dependencies
+8.   README.md                     # Documentation
 
 ⚙️ Installation
 
