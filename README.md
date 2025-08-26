@@ -21,14 +21,19 @@ It also fetches trending topics from Hacker News so you can instantly generate c
 auto_curation/
 │
 ├── .env                         # Stores your API keys
+|
 ├── app.py                       # Main Streamlit app
-│
+|
 ├── hackernews.py                 # Fetch Hacker News topics & trending
+|
 ├── content_gen.py                # Captions generator
+|
 ├── hashtag_generator.py          # Hashtags generator
+|
 ├── image_generator.py            # Image generator
 │                    
 ├── requirements.txt              # Dependencies
+|
 └── README.md                     # Documentation
 
 ⚙️ Installation
